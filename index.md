@@ -3,30 +3,48 @@ title: LeetCode
 layout: home
 ---
 
-This is a _bare-minimum_ template to create a Jekyll site that uses the [Just the Docs] theme. You can easily set the created site to be published on [GitHub Pages] – the [README] file explains how to do that, along with other details.
-
-If [Jekyll] is installed on your computer, you can also build and preview the created site _locally_. This lets you test changes before committing them, and avoids waiting for GitHub Pages.[^1] And you will be able to deploy your local build to a different platform than GitHub Pages.
-
-More specifically, the created site:
-
-- uses a gem-based approach, i.e. uses a `Gemfile` and loads the `just-the-docs` gem
-- uses the [GitHub Pages / Actions workflow] to build and publish the site on GitHub Pages
-
-Other than that, you're free to customize sites that you create with this template, however you like. You can easily change the versions of `just-the-docs` and Jekyll it uses, as well as adding further plugins.
-
-[Browse our documentation][just the docs] to learn more about how to use this theme.
-
-To get started with creating a site, just click "[use this template]"!
-
-If you want to maintain your docs in the `docs` directory of an existing project repo, see [Hosting your docs from an existing project repo](https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md#hosting-your-docs-from-an-existing-project-repo) in the template README.
+## **Array**
 
 ---
 
-[^1]: [It can take up to 10 minutes for changes to your site to publish after you push the changes to GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll#creating-your-site).
+| Number |                                                               Description                                                               |                  Difficulty                  |                                           Leet Code Link                                           |
+| :----: | :-------------------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------: | :------------------------------------------------------------------------------------------------: |
+|  704   |                                          [Binary Search](./_posts/Array.md#704-binary-search)                                           |  **<span style="color:green">Easy</span>**   |                      [Leetcode](https://leetcode.com/problems/binary-search/)                      |
+|   27   |                                          [Rmove Element](./_posts/Array.md#27-remove-element)                                           |  **<span style="color:green">Easy</span>**   |                     [Leetcode](https://leetcode.com/problems/remove-element/)                      |
+|   35   |                                  [Search Insert Position](./_posts/Array.md#35-search-insert-position)                                  |  **<span style="color:green">Easy</span>**   |                 [Leetcode](https://leetcode.com/problems/search-insert-position/)                  |
+|   34   | [Find First and Last Position of Element in Sorted Array](./_posts/Array.md#34-find-first-and-last-position-of-element-in-sorted-array) | **<span style="color:orange">Medium</span>** | [Leetcode](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) |
+|  977   |                              [Squares of a Sorted Array](./_posts/Array.md#977-squares-of-a-sorted-array)                               |  **<span style="color:green">Easy</span>**   |                [Leetcode](https://leetcode.com/problems/squares-of-a-sorted-array/)                |
+|   59   |                                        [Spiral Matrix II](./_posts/Array.md#59-spiral-matrix-ii)                                        | **<span style="color:orange">Medium</span>** |                    [Leetcode](https://leetcode.com/problems/spiral-matrix-ii/)                     |
+|  209   |                              [Minimum Size Subarray Sum](./_posts/Array.md#209-minimum-size-subarray-sum)                               | **<span style="color:orange">Medium</span>** |                [Leetcode](https://leetcode.com/problems/minimum-size-subarray-sum/)                |
 
-[just the docs]: https://just-the-docs.github.io/just-the-docs/
-[github pages]: https://docs.github.com/en/pages
-[readme]: https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md
-[jekyll]: https://jekyllrb.com
-[github pages / actions workflow]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
-[use this template]: https://github.com/just-the-docs/just-the-docs-template/generate
+## **LinkedList**
+
+---
+
+| Number |                                Description                                |                  Difficulty                  |                               Leet Code Link                                |
+| :----: | :-----------------------------------------------------------------------: | :------------------------------------------: | :-------------------------------------------------------------------------: |
+|  203   |   [Remove Linked List Elements](./_posts/LinkedList/2023-04-07-203.md)    |  **<span style="color:green">Easy</span>**   |    [Leetcode](https://leetcode.cn/problems/remove-linked-list-elements/)    |
+|  707   |        [Design Linked List](./_posts/LinkedList/2023-04-07-707.md)        | **<span style="color:orange">Medium</span>** |        [Leetcode](https://leetcode.cn/problems/design-linked-list/)         |
+|  206   |       [Reverse Linked List](./_posts/LinkedList/2023-04-07-206.md)        |  **<span style="color:green">Easy</span>**   |        [Leetcode](https://leetcode.cn/problems/reverse-linked-list/)        |
+|   24   |        [Swap Nodes in Pairs](./_posts/LinkedList/2023-04-07-24.md)        | **<span style="color:orange">Medium</span>** |        [Leetcode](https://leetcode.cn/problems/swap-nodes-in-pairs/)        |
+|   19   | [Remove Nth Node From End of List](./_posts/LinkedList/2023-04-07-19.md)  | **<span style="color:orange">Medium</span>** | [Leetcode](https://leetcode.cn/problems/remove-nth-node-from-end-of-list/)  |
+|  160   | [Intersection of Two Linked Lists](./_posts/LinkedList/2023-04-07-160.md) |  **<span style="color:green">Easy</span>**   | [Leetcode](https://leetcode.com/problems/intersection-of-two-linked-lists/) |
+|  142   |       [Linked List Cycle II](./_posts/LinkedList/2023-04-07-142.md)       | **<span style="color:orange">Medium</span>** |       [Leetcode](https://leetcode.cn/problems/linked-list-cycle-ii/)        |
+
+---
+
+## **Hash Table**
+
+---
+
+| Number |                            Description                             |                  Difficulty                  |                               Leet Code Link                                |
+| :----: | :----------------------------------------------------------------: | :------------------------------------------: | :-------------------------------------------------------------------------: |
+|   1    |           [Two Sum](./_posts/HashTable/2023-04-10-1.md)            |  **<span style="color:green">Easy</span>**   |              [Leetcode](https://leetcode.cn/problems/two-sum/)              |
+|  202   |        [Happy Number](./_posts/HashTable/2023-04-10-202.md)        |  **<span style="color:green">Easy</span>**   |           [Leetcode](https://leetcode.cn/problems/happy-number/)            |
+|  349   | [Intersection of Two Arrays](./_posts/HashTable/2023-04-10-349.md) |  **<span style="color:green">Easy</span>**   |    [Leetcode](https://leetcode.cn/problems/intersection-of-two-arrays/)     |
+|  242   |      [ Valid Anagrams](./_posts/HashTable/2023-04-10-242.md)       |  **<span style="color:green">Easy</span>**   |           [Leetcode](https://leetcode.cn/problems/valid-anagram/)           |
+|   X    |              [X](./_posts/HashTable/2023-04-10-1.md)               | **<span style="color:orange">Medium</span>** | [Leetcode](https://leetcode.cn/problems/remove-nth-node-from-end-of-list/)  |
+|   X    |              [X](./_posts/HashTable/2023-04-10-1.md)               |  **<span style="color:green">Easy</span>**   | [Leetcode](https://leetcode.com/problems/intersection-of-two-linked-lists/) |
+|   X    |              [X](./_posts/HashTable/2023-04-10-1.md)               | **<span style="color:orange">Medium</span>** |       [Leetcode](https://leetcode.cn/problems/linked-list-cycle-ii/)        |
+
+---
