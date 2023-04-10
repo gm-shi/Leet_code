@@ -62,4 +62,4 @@ just_the_docs:
     Array:
       name: Array
     LinkedList:
-      name: LinkedList
+      name: Linked List
