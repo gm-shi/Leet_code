@@ -4,6 +4,9 @@ theme: just-the-docs
 
 url: https://gm-shi.github.io/Leet_code/
 
+logo: "/assets/logo.jpg"
+favicon_ico: "/assets/logo.jpg"
+
 aux_links:
   Template Repository: https://github.com/gm-shi/Leet_code/
 
