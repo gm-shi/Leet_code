@@ -48,18 +48,3 @@ callouts:
   warning:
     title: Warning
     color: red
-
-collections:
-  Array:
-    permalink: "/:collection/:path/"
-    output: true
-  LinkedList:
-    permalink: "/:collection/:path/"
-    output: true
-
-just_the_docs:
-  collections:
-    Array:
-      name: Array
-    LinkedList:
-      name: Linked List
