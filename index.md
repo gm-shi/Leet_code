@@ -38,14 +38,31 @@ nav_order: 1
 
 ---
 
-| Number |                            Description                            |                  Difficulty                  |                               Leet Code Link                                |
-| :----: | :---------------------------------------------------------------: | :------------------------------------------: | :-------------------------------------------------------------------------: |
-|   1    |           [Two Sum](./doc/HashTable/2023-04-10-1.html)            |  **<span style="color:green">Easy</span>**   |             [Leetcode](https://leetcode.com/problems/two-sum/)              |
-|  202   |        [Happy Number](./doc/HashTable/2023-04-10-202.html)        |  **<span style="color:green">Easy</span>**   |           [Leetcode](https://leetcode.com/problems/happy-number/)           |
-|  349   | [Intersection of Two Arrays](./doc/HashTable/2023-04-10-349.html) |  **<span style="color:green">Easy</span>**   |    [Leetcode](https://leetcode.com/problems/intersection-of-two-arrays/)    |
-|  242   |      [ Valid Anagrams](./doc/HashTable/2023-04-10-242.html)       |  **<span style="color:green">Easy</span>**   |          [Leetcode](https://leetcode.com/problems/valid-anagram/)           |
-|   X    |              [X](./doc/HashTable/2023-04-10-1.html)               | **<span style="color:orange">Medium</span>** | [Leetcode](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) |
-|   X    |              [X](./doc/HashTable/2023-04-10-1.html)               |  **<span style="color:green">Easy</span>**   | [Leetcode](https://leetcode.com/problems/intersection-of-two-linked-lists/) |
-|   X    |              [X](./doc/HashTable/2023-04-10-1.html)               | **<span style="color:orange">Medium</span>** |       [Leetcode](https://leetcode.com/problems/linked-list-cycle-ii/)       |
+| Number |                            Description                            |                  Difficulty                  |                            Leet Code Link                             |
+| :----: | :---------------------------------------------------------------: | :------------------------------------------: | :-------------------------------------------------------------------: |
+|   1    |           [Two Sum](./doc/HashTable/2023-04-10-1.html)            |  **<span style="color:green">Easy</span>**   |          [Leetcode](https://leetcode.com/problems/two-sum/)           |
+|  202   |        [Happy Number](./doc/HashTable/2023-04-10-202.html)        |  **<span style="color:green">Easy</span>**   |        [Leetcode](https://leetcode.com/problems/happy-number/)        |
+|  349   | [Intersection of Two Arrays](./doc/HashTable/2023-04-10-349.html) |  **<span style="color:green">Easy</span>**   | [Leetcode](https://leetcode.com/problems/intersection-of-two-arrays/) |
+|  242   |      [ Valid Anagrams](./doc/HashTable/2023-04-10-242.html)       |  **<span style="color:green">Easy</span>**   |       [Leetcode](https://leetcode.com/problems/valid-anagram/)        |
+|  454   |                [4Sum II](./doc/HashTable/454.html)                | **<span style="color:orange">Medium</span>** |           [Leetcode](https://leetcode.cn/problems/4sum-ii/)           |
+|  383   |              [Ransom Note](./doc/HashTable/383.html)              |  **<span style="color:green">Easy</span>**   |         [Leetcode](https://leetcode.cn/problems/ransom-note/)         |
+|   15   |                  [3Sum](./doc/HashTable/15.html)                  | **<span style="color:orange">Medium</span>** |            [Leetcode](https://leetcode.cn/problems/3sum/)             |
+|   18   |                  [4Sum](./doc/HashTable/18.html)                  | **<span style="color:orange">Medium</span>** |            [Leetcode](https://leetcode.cn/problems/4sum/)             |
+
+---
+
+## **String**
+
+---
+
+|  Number  |                      Description                       |                  Difficulty                  |                               Leet Code Link                                |
+| :------: | :----------------------------------------------------: | :------------------------------------------: | :-------------------------------------------------------------------------: |
+|   344    |       [Reverse String](./doc/HashTable/344.html)       |  **<span style="color:green">Easy</span>**   |          [Leetcode](https://leetcode.cn/problems/reverse-string/)           |
+|   541    |     [Reverse String II](./doc/HashTable/541.html)      |  **<span style="color:green">Easy</span>**   |         [Leetcode](https://leetcode.cn/problems/reverse-string-ii/)         |
+| Offer 05 |        [替换空格](./doc/HashTable/offer05.html)        |  **<span style="color:green">Easy</span>**   |       [Leetcode](https://leetcode.cn/problems/ti-huan-kong-ge-lcof/)        |
+|   151    | [ Reverse Words in a String](./doc/HashTable/151.html) | **<span style="color:orange">Medium</span>** |     [Leetcode](https://leetcode.cn/problems/reverse-words-in-a-string/)     |
+| Offer 58 |      [左旋转字符串](./doc/HashTable/offer58.html)      |  **<span style="color:green">Easy</span>**   |  [Leetcode](https://leetcode.cn/problems/zuo-xuan-zhuan-zi-fu-chuan-lcof/)  |
+|    X     |         [X](./doc/HashTable/2023-04-10-1.html)         |  **<span style="color:green">Easy</span>**   | [Leetcode](https://leetcode.com/problems/intersection-of-two-linked-lists/) |
+|    X     |         [X](./doc/HashTable/2023-04-10-1.html)         | **<span style="color:orange">Medium</span>** |       [Leetcode](https://leetcode.com/problems/linked-list-cycle-ii/)       |
 
 ---
