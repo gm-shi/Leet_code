@@ -10,7 +10,7 @@ layout: default
 
 **Solution:**
 
-### Two Pointers
+### 1. Two Pointers
 
 ```java
 
