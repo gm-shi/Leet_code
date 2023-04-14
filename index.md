@@ -55,14 +55,32 @@ nav_order: 1
 
 ---
 
-|  Number  |                      Description                       |                  Difficulty                  |                               Leet Code Link                                |
-| :------: | :----------------------------------------------------: | :------------------------------------------: | :-------------------------------------------------------------------------: |
-|   344    |       [Reverse String](./doc/HashTable/344.html)       |  **<span style="color:green">Easy</span>**   |          [Leetcode](https://leetcode.cn/problems/reverse-string/)           |
-|   541    |     [Reverse String II](./doc/HashTable/541.html)      |  **<span style="color:green">Easy</span>**   |         [Leetcode](https://leetcode.cn/problems/reverse-string-ii/)         |
-| Offer 05 |        [替换空格](./doc/HashTable/offer05.html)        |  **<span style="color:green">Easy</span>**   |       [Leetcode](https://leetcode.cn/problems/ti-huan-kong-ge-lcof/)        |
-|   151    | [ Reverse Words in a String](./doc/HashTable/151.html) | **<span style="color:orange">Medium</span>** |     [Leetcode](https://leetcode.cn/problems/reverse-words-in-a-string/)     |
-| Offer 58 |      [左旋转字符串](./doc/HashTable/offer58.html)      |  **<span style="color:green">Easy</span>**   |  [Leetcode](https://leetcode.cn/problems/zuo-xuan-zhuan-zi-fu-chuan-lcof/)  |
-|    X     |         [X](./doc/HashTable/2023-04-10-1.html)         |  **<span style="color:green">Easy</span>**   | [Leetcode](https://leetcode.com/problems/intersection-of-two-linked-lists/) |
-|    X     |         [X](./doc/HashTable/2023-04-10-1.html)         | **<span style="color:orange">Medium</span>** |       [Leetcode](https://leetcode.com/problems/linked-list-cycle-ii/)       |
+|  Number  |                                Description                                 |                  Difficulty                  |                                        Leet Code Link                                        |
+| :------: | :------------------------------------------------------------------------: | :------------------------------------------: | :------------------------------------------------------------------------------------------: |
+|   344    |                  [Reverse String](./doc/String/344.html)                   |  **<span style="color:green">Easy</span>**   |                   [Leetcode](https://leetcode.cn/problems/reverse-string/)                   |
+|   541    |                 [Reverse String II](./doc/String/541.html)                 |  **<span style="color:green">Easy</span>**   |                 [Leetcode](https://leetcode.cn/problems/reverse-string-ii/)                  |
+| Offer 05 |                   [替换空格](./doc/String/offer05.html)                    |  **<span style="color:green">Easy</span>**   |                [Leetcode](https://leetcode.cn/problems/ti-huan-kong-ge-lcof/)                |
+|   151    |            [ Reverse Words in a String](./doc/String/151.html)             | **<span style="color:orange">Medium</span>** |             [Leetcode](https://leetcode.cn/problems/reverse-words-in-a-string/)              |
+| Offer 58 |                 [左旋转字符串](./doc/String/offer58.html)                  |  **<span style="color:green">Easy</span>**   |          [Leetcode](https://leetcode.cn/problems/zuo-xuan-zhuan-zi-fu-chuan-lcof/)           |
+|   459    |            [Repeated Substring Pattern](./doc/String/459.html)             |  **<span style="color:green">Easy</span>**   |             [Leetcode](https://leetcode.cn/problems/repeated-substring-pattern/)             |
+|    28    | [Find the Index of the First Occurrence in a String](./doc/String/28.html) | **<span style="color:orange">Medium</span>** | [Leetcode](https://leetcode.cn/problems/find-the-index-of-the-first-occurrence-in-a-string/) |
 
 ---
+
+## **Queue and Stack**
+
+---
+
+| Number |                        Description                         |                Difficulty                 |                             Leet Code Link                             |
+| :----: | :--------------------------------------------------------: | :---------------------------------------: | :--------------------------------------------------------------------: |
+|  225   | [Implement Stack using Queues](./doc/Queue&Stack/225.html) | **<span style="color:green">Easy</span>** | [Leetcode](https://leetcode.cn/problems/implement-stack-using-queues/) |
+|  232   | [Implement Queue using Stacks](./doc/Queue&Stack/232.html) | **<span style="color:green">Easy</span>** | [Leetcode](https://leetcode.cn/problems/implement-queue-using-stacks/) |
+
+---
+
+<!-- | Number |     Description     |                  Difficulty                  | Leet Code Link |
+| :----: | :-----------------: | :------------------------------------------: | :------------: | --- | --- | ------------------- | -------------------------------------------- | ------------- |
+|   X    | [X](./doc/X/X.html) | **<span style="color:orange">Medium</span>** | [Leetcode](X)  |
+|   X    | [X](./doc/X/X.html) |  **<span style="color:green">Easy</span>**   | [Leetcode](X)  |     | X   | [X](./doc/X/X.html) | **<span style="color:orange">Medium</span>** | [Leetcode](X) |
+|   X    | [X](./doc/X/X.html) |  **<span style="color:green">Easy</span>**   | [Leetcode](X)  |     | X   | [X](./doc/X/X.html) | **<span style="color:orange">Medium</span>** | [Leetcode](X) |
+|   X    | [X](./doc/X/X.html) | **<span style="color:orange">Medium</span>** | [Leetcode](X)  | -->
