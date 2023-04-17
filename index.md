@@ -71,16 +71,23 @@ nav_order: 1
 
 ---
 
-| Number |                        Description                         |                Difficulty                 |                             Leet Code Link                             |
-| :----: | :--------------------------------------------------------: | :---------------------------------------: | :--------------------------------------------------------------------: |
-|  225   | [Implement Stack using Queues](./doc/Queue&Stack/225.html) | **<span style="color:green">Easy</span>** | [Leetcode](https://leetcode.cn/problems/implement-stack-using-queues/) |
-|  232   | [Implement Queue using Stacks](./doc/Queue&Stack/232.html) | **<span style="color:green">Easy</span>** | [Leetcode](https://leetcode.cn/problems/implement-queue-using-stacks/) |
+| Number |                               Description                               |                  Difficulty                  |                                   Leet Code Link                                   |
+| :----: | :---------------------------------------------------------------------: | :------------------------------------------: | :--------------------------------------------------------------------------------: |
+|  225   |       [Implement Stack using Queues](./doc/Queue&Stack/225.html)        |  **<span style="color:green">Easy</span>**   |       [Leetcode](https://leetcode.cn/problems/implement-stack-using-queues/)       |
+|  232   |       [Implement Queue using Stacks](./doc/Queue&Stack/232.html)        |  **<span style="color:green">Easy</span>**   |       [Leetcode](https://leetcode.cn/problems/implement-queue-using-stacks/)       |
+|   20   |             [Valid Parentheses](./doc/Queue&Stack/20.html)              |  **<span style="color:green">Easy</span>**   |            [Leetcode](https://leetcode.cn/problems/valid-parentheses/)             |
+|  1047  | [Remove All Adjacent Duplicates In String](./doc/Queue&Stack/1047.html) |  **<span style="color:green">Easy</span>**   | [Leetcode](https://leetcode.cn/problems/remove-all-adjacent-duplicates-in-string/) |
+|  150   |     [Evaluate Reverse Polish Notation](./doc/Queue&Stack/150.html)      | **<span style="color:orange">Medium</span>** |     [Leetcode](https://leetcode.cn/problems/evaluate-reverse-polish-notation/)     |
+|  347   |          [Top K Frequent Elements](./doc/Queue&Stack/347.html)          | **<span style="color:orange">Medium</span>** |         [Leetcode](https://leetcode.cn/problems/top-k-frequent-elements/)          |
+|  239   |          [Sliding Window Maximum](./doc/Queue&Stack/239.html)           |   **<span style="color:red">Hard</span>**    |          [Leetcode](https://leetcode.cn/problems/sliding-window-maximum/)          |
 
 ---
 
-<!-- | Number |     Description     |                  Difficulty                  | Leet Code Link |
+<!--
+| Number |     Description     |                  Difficulty                  | Leet Code Link |
 | :----: | :-----------------: | :------------------------------------------: | :------------: | --- | --- | ------------------- | -------------------------------------------- | ------------- |
 |   X    | [X](./doc/X/X.html) | **<span style="color:orange">Medium</span>** | [Leetcode](X)  |
 |   X    | [X](./doc/X/X.html) |  **<span style="color:green">Easy</span>**   | [Leetcode](X)  |     | X   | [X](./doc/X/X.html) | **<span style="color:orange">Medium</span>** | [Leetcode](X) |
 |   X    | [X](./doc/X/X.html) |  **<span style="color:green">Easy</span>**   | [Leetcode](X)  |     | X   | [X](./doc/X/X.html) | **<span style="color:orange">Medium</span>** | [Leetcode](X) |
-|   X    | [X](./doc/X/X.html) | **<span style="color:orange">Medium</span>** | [Leetcode](X)  | -->
+|   X    | [X](./doc/X/X.html) | **<span style="color:orange">Medium</span>** | [Leetcode](X)  |
+-->
