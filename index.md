@@ -83,6 +83,18 @@ nav_order: 1
 
 ---
 
+## **Binary Tree**
+
+---
+
+| Number |                         Description                          |                Difficulty                 |                              Leet Code Link                               |
+| :----: | :----------------------------------------------------------: | :---------------------------------------: | :-----------------------------------------------------------------------: |
+|  145   | [Binary Tree Postorder Traversal](./doc/BinaryTree/145.html) | **<span style="color:green">Easy</span>** | [Leetcode](https://leetcode.cn/problems/binary-tree-postorder-traversal/) |
+|   94   |  [Binary Tree Inorder Traversal](./doc/BinaryTree/94.html)   | **<span style="color:green">Easy</span>** |  [Leetcode](https://leetcode.cn/problems/binary-tree-inorder-traversal/)  |
+|  144   | [Binary Tree Preorder Traversal](./doc/BinaryTree/144.html)  | **<span style="color:green">Easy</span>** | [Leetcode](https://leetcode.cn/problems/binary-tree-preorder-traversal/)  |
+
+---
+
 <!--
 | Number |     Description     |                  Difficulty                  | Leet Code Link |
 | :----: | :-----------------: | :------------------------------------------: | :------------: | --- | --- | ------------------- | -------------------------------------------- | ------------- |
