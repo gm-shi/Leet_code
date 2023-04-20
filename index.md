@@ -92,6 +92,10 @@ nav_order: 1
 |  145   | [Binary Tree Postorder Traversal](./doc/BinaryTree/145.html) | **<span style="color:green">Easy</span>** | [Leetcode](https://leetcode.cn/problems/binary-tree-postorder-traversal/) |
 |   94   |  [Binary Tree Inorder Traversal](./doc/BinaryTree/94.html)   | **<span style="color:green">Easy</span>** |  [Leetcode](https://leetcode.cn/problems/binary-tree-inorder-traversal/)  |
 |  144   | [Binary Tree Preorder Traversal](./doc/BinaryTree/144.html)  | **<span style="color:green">Easy</span>** | [Leetcode](https://leetcode.cn/problems/binary-tree-preorder-traversal/)  |
+|  101   |         [Symmetric Tree](./doc/BinaryTree/101.html)          | **<span style="color:green">Easy</span>** |         [Leetcode](https://leetcode.cn/problems/symmetric-tree/)          |
+|  104   |  [Maximum Depth of Binary Treel](./doc/BinaryTree/104.html)  | **<span style="color:green">Easy</span>** |  [Leetcode](https://leetcode.cn/problems/maximum-depth-of-binary-tree/)   |
+|  111   |  [Minimum Depth of Binary Tree](./doc/BinaryTree/111.html)   | **<span style="color:green">Easy</span>** |  [Leetcode](https://leetcode.cn/problems/minimum-depth-of-binary-tree/)   |
+|  559   |   [Maximum Depth of N-ary Tree](./doc/BinaryTree/559.html)   | **<span style="color:green">Easy</span>** |   [Leetcode](https://leetcode.cn/problems/maximum-depth-of-n-ary-tree/)   |
 
 ---
 
