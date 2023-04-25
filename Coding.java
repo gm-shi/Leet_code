@@ -1,6 +1,11 @@
+import java.util.Arraymap;
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.LinkedList;
+import java.util.List;
+import java.util.Map;
 import java.util.Stack;
+import java.util.Map.Entry;
 
 class TreeNode {
     int val;
@@ -22,23 +27,18 @@ class TreeNode {
 }
 
 class Solution {
-    public boolean isValidBST(TreeNode root) {
-        Stack<TreeNode> st = new Stack<>();
-        TreeNode cur = root;
-        TreeNode pre = null;
-        while (cur != null || !st.empty()) {
-            if (cur != null) {
-                st.push(cur);
-                cur = cur.left;
-            } else {
-                cur = st.pop();
-                if (pre != null && cur.val <= pre.val)
-                    return false;
-                pre = cur;
-                cur = cur.right;
-            }
-        }
-        return true;
-
+    public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
+        if (root == q || root == p || root == null)
+            return root;
+        TreeNode left = lowestCommonAncestor(root.left, p, q);
+        TreeNode right = lowestCommonAncestor(root.right, p, q);
+        if (left != null && right != null)
+            return root;
+        if (left != null && right == null)
+            return left;
+        else if (left == null && right != null)
+            return right;
+        else
+            return null;
     }
 }
