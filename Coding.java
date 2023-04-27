@@ -1,4 +1,3 @@
-import java.util.Arraymap;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.LinkedList;
@@ -27,18 +26,20 @@ class TreeNode {
 }
 
 class Solution {
-    public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
-        if (root == q || root == p || root == null)
+    public TreeNode trimBST(TreeNode root, int low, int high) {
+        if (root == null)
             return root;
-        TreeNode left = lowestCommonAncestor(root.left, p, q);
-        TreeNode right = lowestCommonAncestor(root.right, p, q);
-        if (left != null && right != null)
-            return root;
-        if (left != null && right == null)
-            return left;
-        else if (left == null && right != null)
+        if (root.val < low) {
+            TreeNode right = trimBST(root.right, low, high);
             return right;
-        else
-            return null;
+        }
+        if (root.val > high) {
+            TreeNode left = trimBST(root.left, low, high);
+            return left;
+        }
+        root.left = trimBST(root.left, low, high);
+        root.right = trimBST(root.right, low, high);
+        return root;
+
     }
 }
