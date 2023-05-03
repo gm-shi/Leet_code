@@ -1,9 +1,12 @@
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 import java.util.Random;
+import java.util.Set;
 import java.util.Stack;
 import java.util.Map.Entry;
 
@@ -44,31 +47,25 @@ class ListNode {
 }
 
 class Solution {
+    List<List<Integer>> res = new LinkedList<>();
+    LinkedList<Integer> item = new LinkedList<>();
 
-    ListNode head;
-    int size = 0;
-    Random random;
-
-    public Solution(ListNode head) {
-        this.head = head;
-        ListNode tmp = head;
-        while (tmp != null) {
-            size++;
-            tmp = tmp.next;
-        }
-        random = new Random();
+    public List<List<Integer>> subsetsWithDup(int[] nums) {
+        Arrays.sort(nums);
+        backtracking(nums, 0);
+        return res;
     }
 
-    public int getRandom() {
-        if (size > 0) {
-            int index = random.nextInt(size);
-            ListNode tmp = head;
-            tmp = head;
-            for (int i = 0; i < index; i++) {
-                tmp = tmp.next;
-            }
-            return tmp.val;
-        } else
-            return 0;
+    private void backtracking(int[] nums, int startIndex) {
+        if (startIndex > nums.length)
+            return;
+        res.add(new ArrayList<>(item));
+        for (int i = startIndex; i < nums.length; i++) {
+            if (i > startIndex && nums[i] == nums[i - 1])
+                continue;
+            item.add(nums[i]);
+            backtracking(nums, i + 1);
+            item.removeLast();
+        }
     }
 }
