@@ -1,28 +1,21 @@
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.LinkedList;
 
 class Solution {
-    public int[][] merge(int[][] intervals) {
-
-        Arrays.sort(intervals, (a, b) -> {
-            return a[0] - b[0];
+    public int findMinArrowShots(int[][] points) {
+        Arrays.sort(points, (a, b) -> {
+            return Integer.compare(a[1], b[1]);
         });
-        int start = intervals[0][0];
-        int end = intervals[0][1];
-        ArrayList<int[]> ans = new ArrayList<>();
-        for (int i = 1; i < intervals.length; i++) {
-            if (intervals[i][0] <= end) {
-                end = Math.max(intervals[i][1], end);
-            } else {
-                ans.add(new int[] { start, end });
-                start = intervals[i][0];
-                end = intervals[i][1];
+        int result = 1;
+        int cur = points[0][1];
+        for (int[] point : points) {
+            cur = Math.min(cur, point[1]);
+            if (cur >= point[0])
+                continue;
+            else {
+                cur = point[1];
+                result++;
             }
         }
-        ans.add(new int[] { start, end });
-
-        return ans.toArray(new int[ans.size()][]);
-
+        return result;
     }
 }
