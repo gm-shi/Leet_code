@@ -1,46 +1,11 @@
-
 class Solution {
-
-    private class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-
-        TreeNode() {
+    public int minCostClimbingStairs(int[] cost) {
+        int[] dp = new int[cost.length];
+        dp[0] = cost[0];
+        dp[1] = cost[1];
+        for (int i = 2; i < cost.length; i++) {
+            dp[i] = Math.min(dp[i - 1], dp[i - 2]) + cost[i];
         }
-
-        TreeNode(int val) {
-            this.val = val;
-        }
-
-        TreeNode(int val, TreeNode left, TreeNode right) {
-            this.val = val;
-            this.left = left;
-            this.right = right;
-        }
-    }
-
-    int result;
-
-    public int minCameraCover(TreeNode root) {
-        result = 0;
-        if (traversal(root) == 0)
-            result++;
-        return result;
-    }
-
-    private int traversal(TreeNode node) {
-        if (node == null)
-            return 2;
-        int left = traversal(node.left);
-        int right = traversal(node.right);
-        if (left == 2 && right == 2)
-            return 0;
-        if (left == 0 || right == 0) {
-            result++;
-            return 1;
-        }
-        ;
-        return 2;
+        return Math.min(dp[cost.length - 1], dp[cost.length - 2]);
     }
 }
